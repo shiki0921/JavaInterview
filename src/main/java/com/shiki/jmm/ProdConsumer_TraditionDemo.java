@@ -60,7 +60,7 @@ class ShareData{
  *
  * 1  线程     操作（方法）    资源类
  * 2  判断     干活          通知
- * 3  防止虚假唤醒机制（多线程的唤醒不能用要用while）
+ * 3  防止虚假唤醒机制（多线程的唤醒不能用if要用while）
  */
 public class ProdConsumer_TraditionDemo {
 
